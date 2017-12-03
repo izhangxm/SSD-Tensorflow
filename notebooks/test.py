@@ -72,7 +72,7 @@ def demo6():
       [  69.2800293   121.16003418   27.95996094]
       [  -3.76013184  -45.60009766  -61.88000488]]
     """
-from PIL import Image
+
 def demo7():
     pass
     img = misc.imread('dog.jpg')
@@ -87,6 +87,10 @@ def demo7():
     img = img - means
 
     print img[0]
+
+
+def demo8():
+    pass
 
 
 
